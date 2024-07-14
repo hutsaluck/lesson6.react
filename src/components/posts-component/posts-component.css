@@ -1,0 +1,14 @@
+.wrap-posts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+}

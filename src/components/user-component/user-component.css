@@ -1,0 +1,24 @@
+.user-item{
+    border: 1px solid lightblue;
+    border-radius: 25px;
+    padding: 25px;
+    height: calc(100% - 50px);
+}
+.user-item:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.user-item button{
+    background-color: lightgray;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.user-item button:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

@@ -1,0 +1,33 @@
+.wrap-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10%;
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat ExtraBold', sans-serif;
+    font-size: 30px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #ffffff;
+    text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a{
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.menu a:hover{
+    color: gray;
+}
